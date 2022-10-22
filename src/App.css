@@ -51,3 +51,62 @@ main {
   border-bottom-color: #3892C2;
   transition: all 300ms linear;
 }
+
+.ice-creams .filtered-products {
+  row-gap: 25px;
+}
+
+.ice-creams .filtered-products li .card {
+  row-gap: 15px;
+  column-gap: 15px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0, 0.20)
+}
+
+.ice-creams .filtered-products li .card:hover {
+  box-shadow: 0 1rem 3rem rgba(0,0,0, 0.25);
+  background-color: #9ae5f2;
+  transition: all 300ms linear;
+  cursor: pointer;
+}
+
+.ice-creams .filtered-products li .product-image {
+  max-width: 142px;
+  aspect-ratio: 1/1;
+  margin: 0;
+  border: 3px solid #3892C2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.ice-creams .filtered-products li .product-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ice-creams .filtered-products li .description .text-head {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0,0,0, 0.20);
+}
+
+.ice-creams .filtered-products li .description .text-head h5 {
+  font-size: 16px;
+}
+
+.ice-creams .filtered-products li .description .text-head h5 span {
+  font-size: 12px;
+  background-color: #3892C2;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.ice-creams .filtered-products li .description .text-head h6 {
+  font-size: 12px;
+}
+
+.ice-creams .filtered-products li .description .text-bottom p {
+  font-size: 14px;
+}
